@@ -31,12 +31,14 @@ This project is a React application that allows users to browse TV shows, view t
 
 ## Tech Stack
 
-- **Framework:** React with TypeScript
+- **Framework:** React 18 with TypeScript
 - **State Management:** Redux Toolkit
-- **Data Fetching:** RTK Query
+- **Data Fetching:** RTK Query (Redux Toolkit Query)
+- **Routing:** React Router DOM
 - **Styling:** Styled Components
-- **Testing:** Jest (unit tests)
-- **Build Tool:** Vite (for development)
+- **Testing:** Jest with React Testing Library
+- **Build Tool:** Vite
+- **Code Quality:** ESLint, Prettier
 
 
 ## Installation and Usage
@@ -45,10 +47,32 @@ This project is a React application that allows users to browse TV shows, view t
    ```bash
    git clone https://github.com/Dina-Ashmawy/React-TVMazeExplorer.git
    cd React-TVMazeExplorer
+   ```
+
 2. **Install dependencies:**
+   ```bash
    npm install
-3. **Run the app:**
+   ```
+
+3. **Run the development server:**
+   ```bash
+   npm start
+   ```
+   or
+   ```bash
    npm run dev
+   ```
+   
+   The app will be available at `http://localhost:5173` (or another port if 5173 is in use).
+
+## Available Scripts
+
+- `npm start` or `npm run dev` - Start the development server
+- `npm run build` - Build the app for production
+- `npm run preview` - Preview the production build locally
+- `npm run lint` - Run ESLint to check code quality
+- `npm run format` - Format code using Prettier
+- `npm test` - Run unit tests with Jest
 
 
 ## Screenshots
